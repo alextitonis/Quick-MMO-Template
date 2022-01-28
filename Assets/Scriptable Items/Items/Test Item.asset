@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2feb07a8dc395fa4d8f47af6c9a272e2, type: 3}
+  m_Name: Test Item
+  m_EditorClassIdentifier: 
+  ID: 0
+  Name: Test Item
+  Description: Test Item Description
+  Type: 1
+  EquipmentLocation: -1
+  Strength: 0
+  Agility: 0
+  Stamina: 0
+  Intelligence: 0
+  Wit: 0
+  Mental: 0
+  PhysicalAttack: 0
+  MagicalAttack: 0
+  AttackSpeed: 0
+  CastingSpeed: 0
+  PhysicalArmor: 0
+  MagicalArmor: 0
+  PhysicalCritical: 0
+  MagicalCritical: 0
+  Cooldown: 0
+  MovementSpeed: 0
+  HitChance: 0
+  MaxHealth: 0
+  MaxMana: 0
+  Range: 0
+  clientObject: {fileID: 0}
+  serverObject: {fileID: 0}
+  EquipmentMesh: {fileID: 0}
+  CoveredRegions: 
+  Sprite: {fileID: 0}

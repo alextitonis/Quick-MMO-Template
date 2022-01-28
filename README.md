@@ -1,1 +1,1 @@
-# Quick-MMO-Template
+quick-mmo-template
