@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6576098705382313787}
   - component: {fileID: 4419402197152935148}
   - component: {fileID: 5598732596912795289}
-  - component: {fileID: 224512496572457075}
   - component: {fileID: 3479350445167832955}
   - component: {fileID: 3517693626674987479}
   m_Layer: 0
@@ -60,6 +59,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,6 +71,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -111,6 +112,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -122,6 +124,7 @@ LineRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -204,35 +207,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf55c555bfa98dc478fabc9219e8bff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
   ClientID: 0
   CharName: 
   CharPosition: {x: 0, y: 0, z: 0}
   CharRotation: {x: 0, y: 0, z: 0, w: 0}
-  Level: 0
   race: 0
   _class: 0
   gender: 0
-  MaxHealth: 0
-  CurrentHealth: 0
+  level: 0
   anim: {fileID: 0}
   clickEffect: {fileID: 90045195441531291, guid: acf052a079d71e143b51cfec4d081e3f,
     type: 3}
   timeToDestroyClickEffect: 3
-  controller: {fileID: 3517693626674987479}
-  gravity: 20
---- !u!114 &224512496572457075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3718399828596255309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27f2f89b4f65ab344a33ac43629ab9f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPlayer: 1
+  equipingMesh: {fileID: 0}
+  castingSpell: 0
 --- !u!114 &3479350445167832955
 MonoBehaviour:
   m_ObjectHideFlags: 0
